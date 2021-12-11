@@ -1,5 +1,4 @@
-# Item 1
-## View C++ as a federation of languages.
+# View C++ as a federation of languages.
 1. c
 2. object-oriented c++
 3. Template c++
