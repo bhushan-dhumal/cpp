@@ -1,4 +1,11 @@
-Unordered map:
+## Vector : 
+ ``` c++
+ // Create a vector of size n with all values as 10.
+ vector<int> vect(n, 10);
+```
+
+
+## Unordered map:
 https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/
 https://iq.opengenus.org/different-ways-to-initialize-unordered-map-in-cpp/
 
