@@ -6,9 +6,6 @@
 
 
 ## Unordered map:
-https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/
-https://iq.opengenus.org/different-ways-to-initialize-unordered-map-in-cpp/
-
 Initialization
 ```
         unordered_map<char,int> umap = 
@@ -22,3 +19,7 @@ Initialization
             {'M', 1000}
         };
 ```
+
+Linkes :
+[GFG](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/),
+[Initialize unordered map](https://iq.opengenus.org/different-ways-to-initialize-unordered-map-in-cpp/)
