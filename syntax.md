@@ -23,3 +23,6 @@ Initialization
 Linkes :
 [GFG](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/),
 [Initialize unordered map](https://iq.opengenus.org/different-ways-to-initialize-unordered-map-in-cpp/)
+
+## Deque
+[GFG](https://www.geeksforgeeks.org/deque-cpp-stl/)
