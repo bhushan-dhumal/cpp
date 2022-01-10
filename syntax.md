@@ -25,4 +25,11 @@ Linkes :
 [Initialize unordered map](https://iq.opengenus.org/different-ways-to-initialize-unordered-map-in-cpp/)
 
 ## Deque
+``` c++
+    deque <int> gquiz;
+    gquiz.push_back(10);
+    gquiz.push_front(20);
+    gquiz.push_back(30);
+    gquiz.push_front(15);
+    ```
 [GFG](https://www.geeksforgeeks.org/deque-cpp-stl/)
