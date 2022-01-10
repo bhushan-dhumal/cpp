@@ -31,5 +31,5 @@ Linkes :
     gquiz.push_front(20);
     gquiz.push_back(30);
     gquiz.push_front(15);
-    ```
+ ```
 [GFG](https://www.geeksforgeeks.org/deque-cpp-stl/)
