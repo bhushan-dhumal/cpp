@@ -4,6 +4,16 @@
  vector<int> vect(n, 10);
 ```
 
+Sort vector by second coordinate. e.g ``` points = [[10,16],[2,8],[1,6],[7,12]] ```
+``` c++
+    static int cmp(const vector<int>& v1, const vector<int>& v2)
+    {
+        return (v1[1] < v2[1]);
+    }
+    
+    sort(points.begin(), points.end(), cmp);
+```
+
 
 ## Unordered map:
 Initialization
