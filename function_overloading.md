@@ -5,7 +5,7 @@ Overloading on the basis of const type can be useful when a function return refe
 
 We can make one fucntion const, that returns a const reference or const pointer, other non-const funciton, that returns non-const reference or pointer.
 
-C++ allows funtion to be overloaded on the basis of const-ness of parameters only if the const paratmeter is a reference or a pointer.
+C++ allows funtion to be overloaded on the basis of const-ness of **parameters** only if the const paratmeter is a reference or a pointer.
 
 # return type
 
@@ -23,6 +23,6 @@ The return type of a function has no effect on function overloading, therefore t
 As per C++ standard, floating point literals(compile time constants) are treated as double unless explicitly specified by a suffix.(e.g 1.2f)
 
 # inheritance
-If a dervied class redines the base class memeber method then all the base class methods with tehe same name become hidden in the derived class.
+If a dervied class redines the base class memeber method then all the base class methods with the same name become hidden in the derived class.
 
 If we want to overload a funtion of base class, it is possible to unhide it by using the 'using' keyword
