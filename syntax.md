@@ -30,7 +30,18 @@ Initialization
         };
 ```
 
-Linkes :
+iterating map to get all key or values
+below code not tested on ide but used in company code
+```
+for(auto e : umap)
+{
+  e.first;
+  e.second;
+
+}
+```
+
+Links :
 [GFG](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/),
 [Initialize unordered map](https://iq.opengenus.org/different-ways-to-initialize-unordered-map-in-cpp/)
 
