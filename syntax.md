@@ -54,3 +54,7 @@ Links :
     gquiz.push_front(15);
  ```
 [GFG](https://www.geeksforgeeks.org/deque-cpp-stl/)
+
+# lambda expression
+
+[]() -> return_type
