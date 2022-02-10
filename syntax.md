@@ -56,5 +56,6 @@ Links :
 [GFG](https://www.geeksforgeeks.org/deque-cpp-stl/)
 
 # lambda expression
-
+``` c++
 []() -> return_type
+```
