@@ -58,4 +58,6 @@ Links :
 # lambda expression
 ``` c++
 []() -> return_type
+
+& take all values by reference
 ```
