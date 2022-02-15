@@ -8,4 +8,8 @@ Move constructor
 
 copy constructor
 
-reference vs pointers
+reference vs pointer
+
+object slicing
+
+array decay
