@@ -58,6 +58,18 @@ Links :
 # lambda expression
 ``` c++
 []() -> return_type
-
+```
 & take all values by reference
+= take all values by copy
+
+``` c++
+#include<funtional>
+
+auto test = [](int x, int y){ return x+y;};
+function<int(int,int)> test1 = [](int x, inty){return x-y;};
+
+test(10,20); // 30
+test1(20,10); // 10
+
+
 ```
