@@ -1,5 +1,6 @@
 # move constructor
 takes r-value as argument. it used to transfer ownership of resource from one object to another object.
+
 ``` c++
 class A
 {
@@ -13,3 +14,5 @@ class A
       }
 }:
 ```
+
+const argument passed by reference can be treated as r-value
