@@ -10,3 +10,9 @@ Thus, by making the base class pointer to point to different objects, we can exe
 Key Points :
 1. Virtual fucntion can not be static.
 2. A class can have a virtual destructor but it can not have a virtual constructor.
+
+Links
+
+[virtual-table-vptr](https://www.go4expert.com/articles/virtual-table-vptr-t16544/)
+
+[gfg](https://practice.geeksforgeeks.org/problems/what-are-vtable-and-vptr)
