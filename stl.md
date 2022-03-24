@@ -34,7 +34,8 @@ size of the array can be given on run time hence it can be variable.
 
 you need to make sure memory is free at the end.
 
-e.g. ``` 
+e.g. 
+``` 
 int n = 10;
 int* foo = new int[n];
 delete[] foo;
