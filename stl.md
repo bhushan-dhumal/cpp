@@ -14,6 +14,31 @@ Sort vector by second coordinate. e.g ``` points = [[10,16],[2,8],[1,6],[7,12]] 
     sort(points.begin(), points.end(), cmp);
 ```
 
+while initializing vector size and capacity remains same.
+
+but while inserting/pushing element into vector if capacity is full then it doubles the capacity.
+
+## static arry vs dynamic array
+array created on stack is called static array.
+
+size of the array should be given at compile time and it is constatnt.
+
+memory allocation and deallocation handled automatically.
+
+e.g. ``` int foo[10];```
+
+
+array created on heap is called dynamic array.
+
+size of the array can be given on run time hence it can be variable.
+
+you need to make sure memory is free at the end.
+
+e.g. ``` 
+int n = 10;
+int* foo = new int[n];
+delete[] foo;
+```
 
 ## Unordered map:
 Initialization
