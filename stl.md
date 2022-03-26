@@ -18,6 +18,17 @@ while initializing vector size and capacity remains same.
 
 but while inserting/pushing element into vector if capacity is full then it doubles the capacity.
 
+## List
+
+doubly link list 
+
+## Forward List
+Singly link list
+
+## Array
+
+static array
+
 ## static arry vs dynamic array
 array created on stack is called static array.
 
