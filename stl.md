@@ -51,6 +51,10 @@ int n = 10;
 int* foo = new int[n];
 delete[] foo;
 ```
+## Pair
+used to store two hetrogenous objects
+
+make_pair() method can be used to create pair object.
 
 ## Unordered map:
 Initialization
