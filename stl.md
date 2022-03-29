@@ -57,7 +57,11 @@ used to store two hetrogenous objects
 make_pair() method can be used to create pair object.
 
 ## Tuple
-(never used yet)
+used to store hetrogenous objects.
+
+tie() is used to unpack elments from tuple.
+ignore keyword can be used in tie for value you do not want to unpack.
+
 
 ## Unordered map:
 Initialization
