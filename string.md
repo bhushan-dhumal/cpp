@@ -75,3 +75,10 @@ str: The string that needs to be converted to an integer value
 The atoi() function returns the converted integer value if the execution is successful. 
 
 If the passed string is not convertible to an integer, it will return a zero.
+
+
+### Reverse stiring 
+``` c++
+string s("Hello world");
+string rev = string(s.rbegin(),s.rend());
+```
