@@ -43,3 +43,27 @@ Links
 [virtual-table-vptr](https://www.go4expert.com/articles/virtual-table-vptr-t16544/)
 
 [gfg](https://practice.geeksforgeeks.org/problems/what-are-vtable-and-vptr)
+
+
+
+if base class has virtial private method and same method is being overriedden in child class as public then we'll get an access error.
+
+
+``` c++
+class A
+{
+  private:
+  virtual void test(){}
+};
+class B : public A
+{
+  public:
+  virtual void test(){}
+};
+int main()
+{
+  A *a = new B();
+  a->test(); // access compilation error
+  return 0;
+}
+```
