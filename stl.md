@@ -89,6 +89,30 @@ for(auto e : umap)
 }
 ```
 
+## Ordered map:
+```
+ map<int,int> mp;
+ 
+ mp.insert(pari<int,int>(1,6));
+ mp.insert(pari<int,int>(2,16));
+ mp.insert(pari<int,int>(2,61));
+ mp.insert(pari<int,int>(3,28));
+ 
+ map<int,int>::iterator itr;
+ for(itr = mp.begin();itr != mp.end();itr++)
+ {
+   cout<<itr->first<<"\t";
+   cout<<itr->second<<endl;
+ }
+```
+
+to change default sorting way , you can pass greater<int> or less<int> while declaring map
+ 
+ ```
+ map<int,int,greater<int>> mp;
+ 
+ ```
+
 Links :
 [GFG](https://www.geeksforgeeks.org/unordered_map-in-cpp-stl/),
 [Initialize unordered map](https://iq.opengenus.org/different-ways-to-initialize-unordered-map-in-cpp/)
