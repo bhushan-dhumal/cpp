@@ -132,6 +132,7 @@ Links :
 []() -> return_type
 ```
 & take all values by reference
+ 
 = take all values by copy
 
 ``` c++
