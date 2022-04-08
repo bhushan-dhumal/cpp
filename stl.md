@@ -62,6 +62,20 @@ used to store hetrogenous objects.
 tie() is used to unpack elments from tuple.
 ignore keyword can be used in tie for value you do not want to unpack.
 
+## Priority Queue
+```
+// max heap
+priority_queue<int> pq;
+pq.push(10);
+pq.top();
+pq.pop();
+
+// min heap
+
+priority_queue<int,vector<int>,greater<int>> minpq;
+minpq.push(20);
+```
+
 
 ## Unordered map:
 Initialization
