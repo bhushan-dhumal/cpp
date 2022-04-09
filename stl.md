@@ -71,9 +71,37 @@ pq.top();
 pq.pop();
 
 // min heap
-
 priority_queue<int,vector<int>,greater<int>> minpq;
 minpq.push(20);
+
+// priority queue on pair with own comparator(ordered by second element (Min))
+
+typedef pair<int,int> pi;
+
+struct myComp
+{
+  constexpr bool operator()(pair<int,int> const& a, pair<int,int> const& b) const noexcept
+  { 
+      return a.second > b.second; // looks like for min , greater should be used and for max less should be used. reversed of what we do to sort vector.
+  }
+};
+
+priority_queue<pi,vector<pi>,myComp> pq;
+// Insertion of the elements
+p1.push(make_pair(4, 5));
+p1.push(make_pair(5, 4));
+p1.push(make_pair(1, 6));
+p1.push(make_pair(7, 3));
+p1.push(make_pair(9, 4));
+
+/* output
+7 3
+5 4
+9 4
+4 5
+1 6
+*/
+
 ```
 
 
