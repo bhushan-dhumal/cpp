@@ -6,3 +6,5 @@ what is std initializer list
 
 what is r-value
 
+generally represents by &&
+
