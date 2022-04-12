@@ -18,6 +18,22 @@ while initializing vector size and capacity remains same.
 
 but while inserting/pushing element into vector if capacity is full then it doubles the capacity.
 
+### Methods
+push_back()
+
+pop_back()
+
+front()
+
+back()
+
+## Stack
+
+### Methods
+push()
+
+pop()
+
 ## List
 
 doubly link list 
