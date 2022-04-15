@@ -204,3 +204,4 @@ test1(20,10); // 10
 
 
 ```
+how to pass lambda expression as an argument?
