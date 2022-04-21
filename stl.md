@@ -13,6 +13,17 @@ Sort vector by second coordinate. e.g ``` points = [[10,16],[2,8],[1,6],[7,12]] 
     
     sort(points.begin(), points.end(), cmp);
 ```
+Pointer to vector
+```
+    vector<int> *v = new vector<int>(10);
+    v->at(2); //Retrieve using pointer to member
+    v->operator[](2); //Retrieve using pointer to operator member
+    v->size(); //Retrieve size
+    vector<int> &vr = *v; //Create a reference
+    vr[2]; //Normal access through reference
+    delete &vr; //Delete the reference. You could do the same with
+                //a pointer (but not both!)
+```
 
 while initializing vector size and capacity remains same.
 
